@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <FrameLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/frSpendings" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+
+    <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:layout_marginBottom="15dp" android:layout_marginTop="15dp" android:layout_marginRight="10dp" android:layout_marginLeft="10dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textName" android:textSize="18dp" android:text="Nama" android:layout_alignParentTop="true"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textDate" android:textSize="18dp" android:text="25-04-2021" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/Price" android:textSize="18dp" android:text="Rp. " android:layout_below="@+id/textName"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textNominal" android:textSize="18dp" android:text="100000 " android:layout_below="@+id/textName" android:layout_toRightOf="@+id/Price"/>
+
+</RelativeLayout>
+
+    <View android:layout_height="1dp" android:layout_width="match_parent" android:background="@color/black"/>
+
+</LinearLayout>
+
+</FrameLayout>
